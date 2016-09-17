@@ -19,7 +19,7 @@
 		33133B841CFF77C7003FCFC5 /* NSMutableArray+MDStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B311CFF77C7003FCFC5 /* NSMutableArray+MDStack.m */; };
 		33133B851CFF77C7003FCFC5 /* NSString+MDString.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B321CFF77C7003FCFC5 /* NSString+MDString.h */; };
 		33133B861CFF77C7003FCFC5 /* NSString+MDString.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B331CFF77C7003FCFC5 /* NSString+MDString.m */; };
-		33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B381CFF77C7003FCFC5 /* MDWamp.h */; };
+		33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B381CFF77C7003FCFC5 /* MDWamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33133B8C1CFF77C7003FCFC5 /* MDWamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B391CFF77C7003FCFC5 /* MDWamp.m */; };
 		33133B8D1CFF77C7003FCFC5 /* MDWampClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 33133B3A1CFF77C7003FCFC5 /* MDWampClientConfig.h */; };
 		33133B8E1CFF77C7003FCFC5 /* MDWampClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B3B1CFF77C7003FCFC5 /* MDWampClientConfig.m */; };
@@ -604,6 +604,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */,
 				33133BA41CFF77C7003FCFC5 /* MDWampInterrupt.h in Headers */,
 				33133BBA1CFF77C7003FCFC5 /* MDWampUnregister.h in Headers */,
 				33133B961CFF77C7003FCFC5 /* MDWampCall.h in Headers */,
@@ -611,7 +612,6 @@
 				33133BCE1CFF77C7003FCFC5 /* MDWampTransportRawSocket.h in Headers */,
 				33133BA01CFF77C7003FCFC5 /* MDWampGoodbye.h in Headers */,
 				33133BD01CFF77C7003FCFC5 /* MDWampTransports.h in Headers */,
-				33133B8B1CFF77C7003FCFC5 /* MDWamp.h in Headers */,
 				33133BA81CFF77C7003FCFC5 /* MDWampMessage.h in Headers */,
 				33133BB21CFF77C7003FCFC5 /* MDWampRegistered.h in Headers */,
 				33133B9C1CFF77C7003FCFC5 /* MDWampError.h in Headers */,
