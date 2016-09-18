@@ -1,4 +1,4 @@
 github "robbiehanson/CocoaAsyncSocket" "f3cf8a6fb27de57bd70b40cf4173d695d4a17b22"
-github "mogui/GHODictionary" "042e79c9b58930233c6936b17770c840ef36da89"
+github "elliottwilliams/GHODictionary" "1ccf96b94b4742314e1365f18e79d3cbc03c3a0f"
 github "facebook/SocketRocket" "41b57bb2fc292a814f758441a05243eb38457027"
-github "elliottwilliams/MPMessagePack" "c664fc63587e8002526791010006a41dc2022a40"
+github "elliottwilliams/MPMessagePack" "aa26db573b4be7a1d353644ebd7a3513f1b91c8a"
