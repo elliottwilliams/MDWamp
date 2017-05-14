@@ -4,18 +4,20 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "ABB939127996C66F7E852A780552ADEEF03C6B13" : 0,
+    "DB94EF2833A0A7BF1194B6AA95AC5AD031B2A3A5" : 9223372036854775807,
     "65D58A67FEF44BCFD55A1DA7714DB9E9B2A1548B" : 0,
     "A4A99C2526C784AB11C9858B5D8E389AE599C280" : 0,
     "697C717FC055E6E0717DFD1A6FDE9FC75B2B36B5" : 0,
+    "ABB939127996C66F7E852A780552ADEEF03C6B13" : 0,
     "1C75F1C5CFCB95B3702F6F632FA05ED5244B519E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "23320776-ACCE-4F8E-AC31-8A94C106556C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "ABB939127996C66F7E852A780552ADEEF03C6B13" : "MDWamp\/Carthage\/Checkouts\/SocketRocket\/",
+    "DB94EF2833A0A7BF1194B6AA95AC5AD031B2A3A5" : "..\/..",
     "65D58A67FEF44BCFD55A1DA7714DB9E9B2A1548B" : "MDWamp\/",
     "A4A99C2526C784AB11C9858B5D8E389AE599C280" : "MDWamp\/Carthage\/Checkouts\/GHODictionary\/",
     "697C717FC055E6E0717DFD1A6FDE9FC75B2B36B5" : "MDWamp\/Carthage\/Checkouts\/MPMessagePack\/",
+    "ABB939127996C66F7E852A780552ADEEF03C6B13" : "MDWamp\/Carthage\/Checkouts\/SocketRocket\/",
     "1C75F1C5CFCB95B3702F6F632FA05ED5244B519E" : "MDWamp\/Carthage\/Checkouts\/CocoaAsyncSocket\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "MDWamp",
@@ -46,6 +48,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/SocketRocket.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABB939127996C66F7E852A780552ADEEF03C6B13"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:propershark\/proper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB94EF2833A0A7BF1194B6AA95AC5AD031B2A3A5"
     }
   ]
 }
