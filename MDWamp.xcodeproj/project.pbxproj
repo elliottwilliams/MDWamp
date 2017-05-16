@@ -15,6 +15,8 @@
 		26E038771D8F13CA0006B265 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E038761D8F13CA0006B265 /* CFNetwork.framework */; };
 		26E038791D8F13CF0006B265 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E038781D8F13CF0006B265 /* Security.framework */; };
 		26E0387B1D8F13D50006B265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E0387A1D8F13D50006B265 /* Foundation.framework */; };
+		2646DB151EC8F890009AC11C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2646DB141EC8F890009AC11C /* libicucore.tbd */; };
+		2646DB171EC8F8A2009AC11C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2646DB161EC8F8A2009AC11C /* libicucore.tbd */; };
 		33133AE81CFF7598003FCFC5 /* MDWamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33133ADD1CFF7598003FCFC5 /* MDWamp.framework */; };
 		33133B0A1CFF7657003FCFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B091CFF7657003FCFC5 /* main.m */; };
 		33133B0D1CFF7657003FCFC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33133B0C1CFF7657003FCFC5 /* AppDelegate.m */; };
@@ -206,6 +208,8 @@
 		26E038761D8F13CA0006B265 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		26E038781D8F13CF0006B265 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		26E0387A1D8F13D50006B265 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2646DB141EC8F890009AC11C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libicucore.tbd; sourceTree = DEVELOPER_DIR; };
+		2646DB161EC8F8A2009AC11C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		33133ADD1CFF7598003FCFC5 /* MDWamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDWamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33133AE71CFF7598003FCFC5 /* MDWamp iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDWamp iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33133AFA1CFF75B7003FCFC5 /* MDWamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDWamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -340,6 +344,11 @@
 				26E038711D8F0CAD0006B265 /* GHODictionary.framework in Frameworks */,
 				26E038721D8F0CAD0006B265 /* MPMessagePack.framework in Frameworks */,
 				26E038731D8F0CAD0006B265 /* SocketRocket.framework in Frameworks */,
+				2646DB151EC8F890009AC11C /* libicucore.tbd in Frameworks */,
+				33220B641CFF9B4500F3C3DA /* SocketRocket.framework in Frameworks */,
+				33220B621CFF9A7C00F3C3DA /* CocoaAsyncSocket.framework in Frameworks */,
+				33220B5F1CFF99EB00F3C3DA /* GHODictionary.framework in Frameworks */,
+				33220B601CFF99EB00F3C3DA /* MPMessagePack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +364,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2646DB171EC8F8A2009AC11C /* libicucore.tbd in Frameworks */,
+				33220B691CFF9C1F00F3C3DA /* CocoaAsyncSocket.framework in Frameworks */,
+				33220B6A1CFF9C1F00F3C3DA /* GHODictionary.framework in Frameworks */,
+				33220B6B1CFF9C1F00F3C3DA /* MPMessagePack.framework in Frameworks */,
+				33220B6C1CFF9C1F00F3C3DA /* SocketRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,14 +591,16 @@
 		336F57AA1CFF818100811E8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26E0387A1D8F13D50006B265 /* Foundation.framework */,
-				26E038781D8F13CF0006B265 /* Security.framework */,
-				26E038761D8F13CA0006B265 /* CFNetwork.framework */,
-				26E038741D8F13C40006B265 /* libicucore.A.tbd */,
-				26E0386C1D8F0CAD0006B265 /* CocoaAsyncSocket.framework */,
-				26E0386D1D8F0CAD0006B265 /* GHODictionary.framework */,
-				26E0386E1D8F0CAD0006B265 /* MPMessagePack.framework */,
-				26E0386F1D8F0CAD0006B265 /* SocketRocket.framework */,
+				2646DB161EC8F8A2009AC11C /* libicucore.tbd */,
+				2646DB141EC8F890009AC11C /* libicucore.tbd */,
+				33220B651CFF9C1F00F3C3DA /* CocoaAsyncSocket.framework */,
+				33220B661CFF9C1F00F3C3DA /* GHODictionary.framework */,
+				33220B671CFF9C1F00F3C3DA /* MPMessagePack.framework */,
+				33220B681CFF9C1F00F3C3DA /* SocketRocket.framework */,
+				33220B631CFF9B4500F3C3DA /* SocketRocket.framework */,
+				33220B611CFF9A7C00F3C3DA /* CocoaAsyncSocket.framework */,
+				33220B5D1CFF99EB00F3C3DA /* GHODictionary.framework */,
+				33220B5E1CFF99EB00F3C3DA /* MPMessagePack.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
